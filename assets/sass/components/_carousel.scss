@@ -1,0 +1,16 @@
+.carousel {
+    &-item {
+        /* Media query para dispositivos grandes */
+        @media screen and (min-width: 992px) {
+            height: 500px; /* Alto del carrusel en dispositivos grandes */
+        }
+        
+        /* Media query para dispositivos pequeños */
+        @media screen and (max-width: 768px) {
+            height: 300px; /* Alto del carrusel en dispositivos pequeños */
+        }
+    }
+    &__img{
+        border-radius: 20px;
+    }
+}

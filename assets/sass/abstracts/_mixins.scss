@@ -1,0 +1,13 @@
+@use '../abstracts/variables';
+
+@mixin titles {
+
+    font-family: $raleway;
+    font-size: $xx-large;
+    text-align: center;
+}
+
+@mixin hr {
+    border-color: white;
+    border-width: 3px;
+}

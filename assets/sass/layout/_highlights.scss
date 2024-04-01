@@ -1,0 +1,41 @@
+@use '../abstracts/mixins';
+@use '../abstracts/variables';
+
+.highlights {
+    &__card {
+        padding: 0;
+        width:96%;
+    }
+
+    &__title {
+        @include titles
+    }
+
+    &__hr {
+        @include hr
+    }
+
+    &__img {
+        height: 100%;
+    }
+
+    &__card-title {
+        font-size: $large;
+        font-weight: 800;
+    }
+
+    &__card-text {
+        text-align: start;
+    }
+
+    &__footer {
+        font-size: $medium;
+        &-icon {
+            font-size: 0.8rem;
+        }
+    }
+    &__col {
+        padding: 0;
+    }
+
+}

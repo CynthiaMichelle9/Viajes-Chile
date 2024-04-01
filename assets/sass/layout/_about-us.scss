@@ -1,0 +1,20 @@
+@use '../abstracts/mixins';
+
+.aboutus {
+&__title {
+    @include titles
+}
+
+&__hr {
+    @include hr
+}
+
+&__img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+&__p {
+    text-align: justify;
+}
+}
