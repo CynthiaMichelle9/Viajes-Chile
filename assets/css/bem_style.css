@@ -1,0 +1,63 @@
+/* Abstracts */
+/* Vendors  */
+/* Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: rgb(24, 24, 24);
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Layout */
+.testimonies {
+  color: white;
+  padding: 2rem;
+}
+.testimonies__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+.testimonies__content {
+  justify-content: center;
+  padding-top: 2rem;
+  text-align: center;
+}
+.testimonies__content-p {
+  padding-bottom: 3rem;
+  margin: 0 auto;
+  font-style: italic;
+}
+.testimonies__content-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.testimonies__content-name {
+  font-size: 26px;
+  padding: 3rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr {
+  border-color: white;
+  border-width: 3px;
+}
+
+/* Components  */
+/* Pages */
+/* Themes  */
+
+/*# sourceMappingURL=bem_style.css.map */
