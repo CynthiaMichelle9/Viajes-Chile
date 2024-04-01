@@ -11929,6 +11929,21 @@ body {
   text-align: center;
 }
 
+/* Fuente alternativa */
+/* Font Sizes */
+.form {
+  width: 80%;
+}
+.form__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+.form__hr {
+  border-color: white;
+  border-width: 3px;
+}
+
 /* Components  */
 .carousel-item {
   /* Media query para dispositivos grandes */

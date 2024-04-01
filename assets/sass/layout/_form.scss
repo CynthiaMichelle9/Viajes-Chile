@@ -1,0 +1,12 @@
+@use '../abstracts/mixins';
+
+.form {
+    width: 80%;
+    &__title {
+        @include titles
+    }
+
+    &__hr {
+        @include hr
+    }
+}
