@@ -1,0 +1,8 @@
+@use '../abstracts/mixins';
+@use '../abstracts/variables';
+
+.testimonies {
+    &__title {
+        @include titles
+    }
+}

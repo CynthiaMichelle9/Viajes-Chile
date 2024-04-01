@@ -11887,6 +11887,10 @@ body {
 
 /* Fuente alternativa */
 /* Font Sizes */
+.highlights {
+  padding: 0;
+  border: 0;
+}
 .highlights__card {
   padding: 0;
   width: 96%;
@@ -11916,8 +11920,13 @@ body {
 .highlights__footer-icon {
   font-size: 0.8rem;
 }
-.highlights__col {
-  padding: 0;
+
+/* Fuente alternativa */
+/* Font Sizes */
+.testimonies__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  text-align: center;
 }
 
 /* Components  */

@@ -2,6 +2,8 @@
 @use '../abstracts/variables';
 
 .highlights {
+    padding: 0;
+    border: 0;
     &__card {
         padding: 0;
         width:96%;
@@ -34,8 +36,4 @@
             font-size: 0.8rem;
         }
     }
-    &__col {
-        padding: 0;
-    }
-
 }
