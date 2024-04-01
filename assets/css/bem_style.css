@@ -45,7 +45,7 @@ body {
   padding: 3rem;
 }
 
-.row {
+.testimonies__row {
   display: flex;
   justify-content: center;
   align-items: center;
