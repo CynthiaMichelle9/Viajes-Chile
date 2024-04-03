@@ -1,4 +1,4 @@
-# Viajes-Chile
+# Viajes Chile
 
 ## Requerimientos del Desafío 
 
